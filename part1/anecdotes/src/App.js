@@ -39,8 +39,6 @@ const App = () => {
     return { max };
   }
   const mostVoted = anecdoteMostVoted(quantityVotes)
-  console.log(quantityVotes, 'quantityVotes')
-  console.log(anecdoteMostVoted(quantityVotes), 'anecdoteMostVoted')
 
   return (
     <div>
